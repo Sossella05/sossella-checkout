@@ -12,7 +12,7 @@ const response = await fetch("https://www.asaas.com/api/v3/payments", {
 method: "POST",
 headers: {
 "Content-Type": "application/json",
-"access_token": "SUA_API_KEY_ASAAS"
+"access_token": "$aact_prod_000MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OjNmZmIyM2Y4LTY4M2QtNDYzYy1hMjEzLTc4MmFlYTc2OWEzNTo6JGFhY2hfZDgyY2Q1YzEtMGRjYS00MjNhLTk0MTQtMjBjZWU5OTM5YTFl"
 },
 body: JSON.stringify({
 billingType: "UNDEFINED",
